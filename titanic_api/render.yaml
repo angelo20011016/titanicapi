@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: titanic-api
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    autoDeploy: true
